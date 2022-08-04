@@ -1,0 +1,16 @@
+{
+  "name": "micro-app-demo",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "babel ./pages/index.js dong.js component.js logic.js -d ./public/dist && node app.js"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.18.10",
+    "@babel/core": "^7.18.10",
+    "@babel/preset-react": "^7.18.6"
+  }
+}
